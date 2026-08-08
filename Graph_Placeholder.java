@@ -36,6 +36,11 @@ public class Graph_Placeholder implements GraphADT<String, Double> {
         return path.contains(data);
     }
 
+    @Override
+    public List<String> getAllNodes() {
+        return new ArrayList<>();
+    }
+
     public int getNodeCount() {
         return path.size();
     }
